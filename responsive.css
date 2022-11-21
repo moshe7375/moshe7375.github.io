@@ -1,0 +1,54 @@
+@media screen and (min-width: 700px) {
+  .about {
+    padding: 45px;
+  }
+  .about p {
+    width: 80%;
+    margin: auto;
+  }
+  .about .btn {
+    width: 30%;
+  }
+  .work {
+    padding: 45px 0;
+  }
+  .work .card {
+    padding: 20px;
+    margin-top: 45px;
+    width: 75%;
+  }
+  .work .card p {
+    width: 80%;
+    margin: 10px auto 0 auto;
+  }
+  .work .card .thisPro {
+    margin-top: 20px;
+    width: 35%;
+  }
+  .contact .only {
+    width: 75%;
+    margin: 20px auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about p {
+    width: 60%;
+  }
+  .work {
+    padding: 50x 0;
+  }
+  .work .card-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .work .card {
+    width: 87%;
+  }
+  .work .card p {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

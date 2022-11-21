@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+body{
+    background-color: black;
+}
+.container{
+    position: relative;    
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container div{
+    background-color: blue;
+    width: 20px;
+}
+h1:nth-child(odd){
+    color: white;
+    letter-spacing: 2px;
+}
+h1:nth-child(even){
+    color: red;
+    font-size: 27px;
+    letter-spacing: 3px;
+}
+.container div:hover{
+    width: 0px;
+}
