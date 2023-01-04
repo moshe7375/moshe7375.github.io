@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
 }
 .head-bar {
   text-align: center;
@@ -74,11 +75,11 @@
       margin-top: 7px;
       color: white;
       width: 100%;
-      font-family: "Inconsolata", monospace;
+      font-family: 'Inconsolata', monospace;
     }
     span {
       color: red;
-      font-family: "Inconsolata", monospace;
+      font-family: 'Inconsolata', monospace;
     }
   }
 }
@@ -129,8 +130,12 @@
     }
   }
 }
+.buffer {
+  height: 100px;
+  background-color: black;
+}
 .work {
-  padding: 30px 0;
+  padding: 75px 0 30px 0;
   h3 {
     color: black;
     text-align: center;
@@ -188,7 +193,7 @@
 }
 
 .contact {
-  padding: 30px;
+  padding: 50px 0 50px 0;
   h4 {
     text-align: center;
     font-size: 20px;

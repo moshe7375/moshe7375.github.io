@@ -30,7 +30,6 @@
     margin: 20px auto 0 auto;
   }
 }
-
 @media screen and (min-width: 1000px) {
   .about p {
     width: 60%;
@@ -39,10 +38,8 @@
     padding: 50x 0;
   }
   .work .card-container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .work .card {
     width: 87%;
@@ -50,5 +47,4 @@
   .work .card p {
     width: 80%;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */

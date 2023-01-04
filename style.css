@@ -1,9 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 
 .head-bar {
@@ -14,24 +14,20 @@
   width: 100%;
   padding: 10px;
 }
-
 .head-bar h1 {
   font-size: 1.3em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
 .head-bar ul {
   display: none;
 }
-
 .head-bar .menu {
   position: relative;
   background-color: red;
   width: 30px;
   height: 30px;
 }
-
 .head-bar .menu .mOne {
   width: 30px;
   height: 5px;
@@ -40,10 +36,8 @@
   rotate: 90deg;
   left: 50%;
   bottom: 0;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
-
 .head-bar .menu .mTwo {
   width: 30px;
   height: 5px;
@@ -59,21 +53,17 @@
   background-attachment: fixed;
   background-size: cover;
 }
-
 .show-case .content {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
 }
-
 .show-case .content h2 {
   font-size: 2em;
   letter-spacing: 2px;
 }
-
 .show-case .content p {
   font-size: 1em;
   margin-top: 7px;
@@ -81,7 +71,6 @@
   width: 100%;
   font-family: "Inconsolata", monospace;
 }
-
 .show-case .content span {
   color: red;
   font-family: "Inconsolata", monospace;
@@ -92,16 +81,13 @@
   height: 60vh;
   position: relative;
 }
-
 .about .content {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 90%;
 }
-
 .about h3 {
   text-align: center;
   margin-bottom: 20px;
@@ -109,12 +95,10 @@
   letter-spacing: 1px;
   font-size: 1.2em;
 }
-
 .about p {
   text-align: center;
   font-size: 1.1em;
 }
-
 .about .btn {
   background-color: black;
   border: none;
@@ -127,27 +111,27 @@
   text-align: center;
   border: solid 2px black;
 }
-
 .about .btn a {
   text-decoration: none;
   color: white;
 }
-
 .about .btn:hover {
   background-color: white;
   border: solid 2px black;
-  -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
 }
-
 .about .btn:hover a {
   color: black;
 }
 
-.work {
-  padding: 30px 0;
+.buffer {
+  height: 100px;
+  background-color: black;
 }
 
+.work {
+  padding: 75px 0 30px 0;
+}
 .work h3 {
   color: black;
   text-align: center;
@@ -156,7 +140,6 @@
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
-
 .work .card {
   width: 85%;
   background-color: white;
@@ -166,26 +149,21 @@
   margin: auto;
   margin-bottom: 30px;
   border-radius: 20px;
-  -webkit-box-shadow: 0 0 10px -5px black;
-          box-shadow: 0 0 10px -5px black;
+  box-shadow: 0 0 10px -5px black;
 }
-
 .work .card h5 {
   font-size: 20px;
   color: black;
 }
-
 .work .card .sub-header {
   margin-bottom: 40px;
   margin-top: 10px;
   font-size: 15px;
   color: black;
 }
-
 .work .card a {
   color: black;
 }
-
 .work .card .btn {
   background-color: black;
   border: none;
@@ -197,39 +175,33 @@
   margin: 20px auto 0 auto;
   text-align: center;
 }
-
 .work .card .btn a {
   color: white;
   text-decoration: none;
 }
 
 .contact {
-  padding: 30px;
+  padding: 50px 0 50px 0;
 }
-
 .contact h4 {
   text-align: center;
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
 .contact .only {
   text-align: center;
   font-size: 20px;
 }
-
 .contact .content {
   margin-top: 20px;
   text-align: center;
 }
-
 .contact .content p {
   font-size: 18px;
   margin-bottom: 7px;
   color: black;
 }
-
 .contact .content p a {
   color: black;
 }
@@ -237,17 +209,11 @@
 .foot-bar {
   text-align: center;
   padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 0 20px;
 }
-
 .foot-bar .icon {
   width: 20px;
   margin-left: 10px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
