@@ -133,7 +133,35 @@
 .buffer {
   height: 100px;
   background-color: black;
+  position: relative;
+  .sub-buffer {
+    width: 0%;
+    height: 13px;
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: ease-in-out 0.7s;
+  }
 }
+.buffer-two {
+  height: 100px;
+  background-color: black;
+  position: relative;
+  .sub-buffer-two {
+    width: 0%;
+    height: 13px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: ease-in-out 0.7s;
+  }
+}
+
 .work {
   padding: 75px 0 30px 0;
   h3 {

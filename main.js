@@ -1,12 +1,14 @@
-document.getElementById('.bar') .onclick = function(){
-    <style>
-        .menu-one {
-            transform: rotate(45deg);
-        }
-        .menu-two {
-            transform: rotate(135deg);
-            position: absolute;
-            top: 0;
-        }
-    </style>
+document.getElementById('body') .onscroll = () => {
+    console.log(scrollY)
+    if(scrollY >= 675){
+        document.querySelector('.sub-buffer') .style = 'width: 90%';
+    } else {
+        document.querySelector('.sub-buffer') .style = 'width: 0%'
+    }
+
+    if(scrollY >= 1800){
+        document.querySelector('.sub-buffer-two') .style = 'width: 90%';
+    } else {
+        document.querySelector('.sub-buffer-two') .style = 'width: 0%'
+    }
 }
