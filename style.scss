@@ -4,51 +4,80 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
+  // overflow: hidden;
 }
 .head-bar {
   text-align: center;
   position: relative;
-  position: sticky;
   width: 100%;
   padding: 10px;
-  // .menu{
-  //     text-align: right;
-  //     position: absolute;
-  //     top: 50%;
-  //     transform: translate(0, -50%);
-  //     right: 20px;
-  //     background-color: black;
-  //     padding: 5px 10px;
-  //     border-radius: 50px;
-  // }
+  overflow: hidden;
   h1 {
     font-size: 1.3em;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
-  ul {
-    display: none;
-  }
-  .menu {
-    position: relative;
-    background-color: red;
-    width: 30px;
-    height: 30px;
-    .mOne {
+  .menu-icon {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+    .bar {
       width: 30px;
       height: 5px;
       background-color: black;
       border-radius: 10px;
-      rotate: (90deg);
-      left: 50%;
-      bottom: 0;
+      right: 10px;
+      top: 50%;
+      transform: translate(-50%, 0);
+      margin: 3px;
+    }
+  }
+
+  .menu-icon-animate {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+    .bar {
+      width: 30px;
+      height: 5px;
+      background-color: black;
+      border-radius: 10px;
+      position: absolute;
+      right: 10px;
+      top: 50%;
       transform: translate(-50%, 0);
     }
-    .mTwo {
-      width: 30px;
-      height: 5px;
-      background-color: black;
-      border-radius: 10px;
+    .b-one {
+      transform: rotate(-45deg);
+    }
+    .b-two {
+      transform: rotate(45deg);
+    }
+    .b-three {
+      display: none;
+    }
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    width: 65%;
+    height: 95vh;
+    background-color: white;
+    z-index: 9999;
+    transform: translate(500px);
+    border-bottom: solid 3px black;
+    transition: ease-in-out 0.5s;
+    overflow: hidden;
+    a {
+      color: black;
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
     }
   }
 }
@@ -87,6 +116,8 @@
   padding: 30px;
   height: 60vh;
   position: relative;
+  transform: scale(0.8);
+  transition: ease-in-out 0.5s;
   .content {
     position: absolute;
     top: 50%;

@@ -1,0 +1,21 @@
+.icon {
+  margin: 30px;
+  background-color: grey;
+  position: relative;
+  .bar {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+  }
+  .one {
+    transform: rotate(45deg);
+  }
+  .two {
+    transform: rotate(-45deg);
+  }
+}
